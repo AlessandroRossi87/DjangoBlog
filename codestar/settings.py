@@ -31,7 +31,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = ['codestar-ci-blog-438db0f50ccb.herokuapp.com',
-                 '8000-alessandrorossi87-django-v2fpy36jnn.us2.codeanyapp.com']
+                 '8000-alessandrorossi87-django-v2fpy36jnn.us2.codeanyapp.com',
+                 'django-blog87-11041fc1edba.herokuapp.com']
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
